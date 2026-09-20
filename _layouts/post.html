@@ -5,7 +5,7 @@ layout: primary
 <div class="blog-content">
     <article id="blog-post-id">
         {% include content-header.html %}
-        {{ content }}
+        <div id="article-body">{{ content }}<div>
         <a href='https://ko-fi.com/F2S023SEFP' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
     </article>
 </div>
@@ -14,11 +14,9 @@ layout: primary
         {% if page.previous %}
         <a class="prev-link" href="{{ page.previous.url }}">&larr; Previous</a>
         {% endif %}
-    
         {% if page.og_social_url %}
         <a class="og-social-link" href="{{ page.og_social_url }}">GoTo OG Post!</a>
         {% endif %} 
-    
         {% if page.next %}
         <a class="next-link" href="{{ page.next.url }}">Next &rarr;</a>
         {% endif %}

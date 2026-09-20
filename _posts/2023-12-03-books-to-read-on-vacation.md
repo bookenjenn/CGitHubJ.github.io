@@ -19,8 +19,6 @@ The holidays are around the corner, and you may have planned everything out, fro
 
 Isn’t that what the holidays are all about?
 
-  | *I'm not affiliated with any of these authors at the time of writing this post.*
-
 ## The 7 1/2 Deaths of Evelyn Hardcastle by Stuart Turton
 
 <img src="/assets/img/2023/seven-lives-of-e-hardcastle.jpg" class="center-image">
