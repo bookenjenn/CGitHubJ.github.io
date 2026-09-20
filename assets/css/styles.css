@@ -11,13 +11,16 @@
   --subtitle-font-size: 1.3rem;
   --mobile-font-size: 1.145rem;
   --desktop-font-size: 1.24rem;
+
+  --parahraph-font: Georgia, "Times New Roman", Times, serif;
+  --heading-font: "Arial Black", Arial, sans-serif;
 }
 
 html {
   overflow-y: scroll;
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--parahraph-font);
 }
 
 /* Theme Helpers */
@@ -49,7 +52,7 @@ h6 {
   letter-spacing: -0.05em;
   word-spacing: -0.04em;
   margin-bottom: 0.5em;
-  font-family: "Arial Black", Arial, sans-serif;;
+  font-family: var(--heading-font);
 }
 h1 {
   font-size: 3rem;
@@ -148,24 +151,24 @@ a:hover {
   background-color: var(--color-secondary);
 }
 
-/* Navigation */
 .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+  font-family: var(--heading-font);
 }
-
 .navbar-nav .nav-link.active {
   color: var(--color-text-light);
   text-decoration: underline;
 }
-
 .navbar-brand {
   margin: 0;
   padding: 0;
   height: auto;
 }
-
 .navbar-brand img {
   height: 50px;
   margin: 0;
@@ -176,7 +179,6 @@ a:hover {
 .footer-disclaimer {
   font-size: 8pt;
 }
-
 .show-consent-banner {
   position: fixed;
   z-index: 100;
@@ -277,10 +279,8 @@ a:hover {
 
 /* Header Sections */
 .posts-header {
-  /* The linear-gradient goes FIRST, then the image url */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/assets/img/primary/about-me-book-shelf.webp) center/cover;
-
   min-height: 400px;
   width: 100%;
   user-select: none;
