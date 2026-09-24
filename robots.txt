@@ -1,47 +1,73 @@
 ---
 ---
 
-# bookenjenn.com
-# ========================================================
-# SECTION 1: SPECIFIC BOT BLOCKS (AI & AGGRESSIVE SCRAPERS)
-# ========================================================
-# These bots are known for high-volume scraping or AI training.
+# Robots.txt for bookenjenn.com
+# engines
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: FacebookBot
+User-agent: Googlebot
+User-agent: Slurp
+User-agent: Applebot
+User-agent: Twitterbot
 
-User-agent: GPTBot
-User-agent: ChatGPT-User
-User-agent: Google-Extended
-User-agent: CCBot
-User-agent: Anthropic-AI
-User-agent: Claude-Web
-User-agent: ClaudeBot
-User-agent: Omegabot
-User-agent: Bytespider
-User-agent: ImagesiftBot
+# fetchers and seo
+User-agent: DuckAssistBot
+User-agent: OAI-SearchBot
 User-agent: PerplexityBot
-Disallow: /
+User-agent: Meta-ExternalFetcher
+User-agent: Perplexity-User
+User-agent: archive.org_bot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: AhrefsBot
 
-# ========================================================
-# SECTION 2: GLOBAL RULES (ALL OTHER BOTS)
-# ========================================================
-# Applies to Google, Bing, DuckDuckGo, etc.
-
-User-agent: *
-
-# Block sensitive or low-value pages
+# other
+Allow: /
+Disallow: /data
+Disallow: /data/
+Disallow: /404
+Disallow: /404/
+Disallow: /privacy
+Disallow: /privacy/
+Disallow: /search
+Disallow: /search/
+Disallow: /social
+Disallow: /social/
+Disallow: /reports
+Disallow: /reports/
+Disallow: /wp-admin
+Disallow: /wp-admin/
+Disallow: /checkout
+Disallow: /checkout/
+Disallow: /cart
+Disallow: /cart/
+Disallow: /account
+Disallow: /account/
+Disallow: /.env
+Disallow: /.env/
 Disallow: /404
 Disallow: /legal/terms-and-conditions
 Disallow: /legal/privacy-policy
 Disallow: /contact
-
-# Block content directories (if you want these hidden from search)
 Disallow: /mediaposts
 Disallow: /articles
 Disallow: /bookreviews
 Disallow: /blogposts
 Disallow: /assets/files/
 
-# ========================================================
-# SECTION 3: SITEMAP
-# ========================================================
+# explicit
+User-agent: Applebot-Extended
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: GrokBot
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# everything else
+User-agent: *
+Disallow: /
 
 Sitemap: {{ "sitemap.xml" | absolute_url }}
