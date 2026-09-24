@@ -3,6 +3,7 @@ source "https://rubygems.org"
 # Core Application
 gem "jekyll", "~> 4.4.1"
 gem "concurrent-ruby", ">= 1.3.7"
+gem "json", ">= 2.19.9"
 
 # Crucial Standard Library Shims for Ruby 4.0+ Runtime
 gem "logger"
