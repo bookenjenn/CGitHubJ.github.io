@@ -6,7 +6,7 @@ edit_date: 2026-09-04 11:31:50 -0600
 categories: review
 permalink: books-to-read-during-the-holidays
 image: /assets/img/2023/dec-vacay-thumbnail.png
-description: You’ll never be bored again! These book recommendations will keep you entertained throughout the holidays, whether you’re looking for cozy reading or an exciting new story.
+description: You’ll never be bored again! These book recommendations will keep you entertained throughout the holidays.
 pinned: true
 keywords:
   - to read

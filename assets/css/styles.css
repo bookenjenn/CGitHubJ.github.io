@@ -246,11 +246,6 @@ a:hover,
   flex: 50%;
   min-width: 400px;
 }
-.header-description {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  font-style: italic;
-}
 
 /* Header Sections */
 
@@ -294,6 +289,13 @@ a:hover,
   margin: 0;
   padding: 0;
 }
+.post-subtitle {
+  margin-left: 1px;
+  border-left: 3px solid var(--color-bg-main);
+  color: #64748b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+}
 .featured-posts-title {
   margin: 0 auto 35px;
   text-align: center;
@@ -310,7 +312,6 @@ a:hover,
   padding: 0;
 }
 .post-header p {
-  font-size: var(--subtitle-font-size);
   line-height: 1.2;
 }
 
