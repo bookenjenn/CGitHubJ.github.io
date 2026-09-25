@@ -29,23 +29,9 @@ layout: primary
         <h2>Recent Posts</h2>
     </div>
     <div class="post-card-container">
-        {% for post in site.posts limit:4 %}
-        <div class="post-listing-card" onclick="goToPost('{{ post.url | absolute_url }}')">
-            <div class="post-listing-card-top">
-                <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
-            </div>
-            <div class="post-listing-card-bottom">
-                <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
-                <div class="sample-post-text">
-                    <p>{{ post.description | default: post.title | truncate: 76 }}</p>
-                </div>
-                <div class="date-posted-stamp">
-                    {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-                    <p>Posted: {{ post.date | date: date_format }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
+    {% for post in site.posts limit:4 %}
+        {% include post-card.html post=post length=76 %}
+    {% endfor %}
     </div>
     <div class="featured-posts-title secondary-theme-color center-text">
         <h2>Trending Posts</h2>
@@ -53,21 +39,7 @@ layout: primary
     <div class="post-card-container">
         {% assign pinned_posts = site.posts | where: "pinned", true %}
         {% for post in pinned_posts limit:4 %}
-        <div class="post-listing-card" onclick="goToPost('{{ post.url | absolute_url }}')">
-            <div class="post-listing-card-top">
-                <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
-            </div>
-            <div class="post-listing-card-bottom">
-                <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
-                <div class="sample-post-text">
-                    <p>{{ post.description | default: post.title | truncate: 72 }}</p>
-                </div>
-                <div class="date-posted-stamp">
-                    {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-                    <p>Posted: {{ post.date | date: date_format }}</p>
-                </div>
-            </div>
-        </div>
+            {% include post-card.html post=post length=76 %}
         {% endfor %}
     </div>
 </div>

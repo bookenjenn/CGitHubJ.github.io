@@ -1,0 +1,15 @@
+<a class="post-listing-card" href="{{ include.post.url | absolute_url }}">
+  <div class="post-listing-card-top">
+    <img src="{{ include.post.image }}" loading="lazy" alt="{{ include.post.title }}">
+  </div>
+
+  <div class="post-listing-card-bottom">
+    <h2>{{ include.post.title }}</h2>
+    <div class="sample-post-text">
+      <p>{{ include.post.description | default: include.post.title | truncate: include.length }}</p>
+    </div>
+    <div class="date-posted-stamp">
+      <p>Posted: {{ include.post.date | date: site.date_format }}</p>
+    </div>
+  </div>
+</a>

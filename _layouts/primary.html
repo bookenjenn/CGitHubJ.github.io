@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body class="primary-theme-color">
-    <header id="primary-top-nav-header-id">
-      {% include top-nav.html %}
-    </header>
-
-    <main id="primary-main-content-id">
-      {{ content }}
-    </main>
-
-    <footer id="primary-bot-nav-footer-id">
-      {% include bottom-nav.html %}
-      {% include cookie-consent.html %}
-    </footer>
-    <script src="/assets/js/bootstrap.bundle.min.js" defer></script>
-  </body>
-
-  <script>
-    function goToPost(url) {
-        window.location.href = url;
-    }
-  </script>
+{% include head.html %}
+<body class="primary-theme-color">
+  <header id="primary-top-nav-header-id">
+    {% include top-nav.html %}
+  </header>
+  <main id="primary-main-content-id">
+    {{ content }}
+  </main>
+  <footer id="primary-bot-nav-footer-id">
+    {% include bottom-nav.html %}
+    {% include cookie-consent.html %}
+  </footer>
+  <script src="/assets/js/bootstrap.bundle.min.js" defer></script>
+</body>
 </html>
