@@ -1,6 +1,6 @@
-<a class="post-listing-card" href="{{ include.post.url | absolute_url }}">
-  <div class="post-listing-card-top">
-    <img src="{{ include.post.image }}" loading="lazy" alt="{{ include.post.title }}">
+<a class="post-listing-card no-select" href="{{ include.post.url | absolute_url }}" draggable="false">
+  <div class="post-listing-card-top stop-click-event">
+    <img src="{{ include.post.image }}" loading="lazy" alt="{{ include.post.title }}" draggable="false">
   </div>
 
   <div class="post-listing-card-bottom">
