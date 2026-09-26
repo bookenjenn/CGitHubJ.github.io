@@ -249,7 +249,7 @@ a:hover,
 
 /* Header Sections */
 
-.posts-header {
+.banner-header {
   display: grid;
   place-items: center;
   width: 100%;
@@ -258,9 +258,8 @@ a:hover,
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/assets/img/primary/about-me-book-shelf.webp") center / cover;
   color: var(--color-text-light);
-  user-select: none;
 }
-.posts-header-title {
+.banner-header-title {
   display: grid;
   position: relative;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
@@ -278,24 +277,37 @@ a:hover,
       rgba(0, 0, 0, 0) 80%
     );
 }
-.posts-header-title img {
+.banner-header-title img {
   width: 100%;
   max-width: 420px;
   height: auto;
   border-radius: 10px;
 }
-.posts-header-title :is(h1, h2) {
+.title-image {
+  display: flex;
+  width: 100%;
+}
+.title-image img {
+  margin-inline: auto;
+  margin-bottom: 22px;
+  width: 60%;
+  min-width: 200px;
+  border-radius: 50%;
+  border: 5px solid var(--color-bg-main);
+}
+.banner-header-title :is(h1, h2) {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-.post-subtitle {
+.banner-subtitle {
   margin-left: 1px;
   border-left: 3px solid var(--color-bg-main);
   color: #64748b;
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
 }
+
 .featured-posts-title {
   margin: 0 auto 35px;
   text-align: center;
@@ -446,11 +458,17 @@ a:hover,
   }
 }
 @media (max-width: 801px) {
-  .posts-header-title {
+  .banner-header-title {
     justify-content: center;
     text-align: center;
   }
   p {
     font-size: var(--mobile-font-size);
   }
+}
+.no-select {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: none;
 }
