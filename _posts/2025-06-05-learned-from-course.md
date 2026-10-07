@@ -6,7 +6,7 @@ edit_date: 2026-08-23 10:02:00 -0600
 categories: review
 permalink: learned-from-course
 image: /assets/img/2025/learned-from-course.webp
-description: Editors often focuses on writing and grammar rather than the broader publishing industry. It should perhaps take a more comprehensive approach.
+description: Editors often focus on writing and grammar rather than the broader publishing industry. It should perhaps adopt a more comprehensive approach.
 keywords:
   - ELVTR
   - Publishing

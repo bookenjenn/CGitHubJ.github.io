@@ -16,9 +16,9 @@ keywords:
   - Romantic Comedy
 ---
 
-Roxie loves reading romance novels, and Anne Matthews is her favorite author. While walking home after her training session with her self-defense instructor, Roxie makes an off-handed wish about living in the next Ann Mitchell’s novel. Thanks to the mysterious fedora-wearing stranger, Roxie’s wish comes true, and she finds herself saying yes to a date with someone who is too good to be true.
+Roxie loves reading romance novels, and Anna Matthews is her favorite author. While walking home after her training session with her self-defense instructor, Roxie makes an off-handed wish about living in the next Anna Matthews' novel. Thanks to the mysterious fedora-wearing stranger, Roxie’s wish comes true, and she finds herself saying yes to a date with someone who is too good to be true.
 
-Until her date tries to kill her, that is. Instead of living out Anne Matthews’ usual romance, Roxie realizes her book is a CRIME THRILLER! (And I thought I had bad dates.)
+Until her date tries to kill her, that is. Instead of living out Anna Matthews’ usual romance, Roxie realizes her book is a CRIME THRILLER! (And I thought I had bad dates.)
 
 As Roxie tries to escape from her killer date, she’s led to Grant, or at least the car he's in, as Roxie’s trying to steal it. Grant is an anxious creative writing professor with a penchant for thrillers. Despite Grant trying to avoid deadly plot points and Roxie running headfirst into them, they make a great team. Still, they have to find the author to finish the story before the story finishes them first. Because they can't possibly have Happily Ever After, right?
 

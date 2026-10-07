@@ -1,47 +1,104 @@
 ---
 ---
 
-# bookenjenn.com
-# ========================================================
-# SECTION 1: SPECIFIC BOT BLOCKS (AI & AGGRESSIVE SCRAPERS)
-# ========================================================
-# These bots are known for high-volume scraping or AI training.
+# Robots.txt for bookenjenn.com
+# search engines
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Storebot-Google
+User-agent: Google-InspectionTool
+User-agent: Google-Read-Aloud
+User-agent: FeedFetcher-Google
+User-agent: Applebot
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Slurp
+User-agent: YandexBot
+User-agent: Baiduspider
+User-agent: SeznamBot
+User-agent: PetalBot
 
-User-agent: GPTBot
-User-agent: ChatGPT-User
-User-agent: Google-Extended
-User-agent: CCBot
-User-agent: Anthropic-AI
-User-agent: Claude-Web
-User-agent: ClaudeBot
-User-agent: Omegabot
-User-agent: Bytespider
-User-agent: ImagesiftBot
+# social
+User-agent: FacebookBot
+User-agent: facebookexternalhit
+User-agent: Meta-ExternalFetcher
+User-agent: WhatsApp
+User-agent: Snapchat
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: Slackbot
+User-agent: Discordbot
+User-agent: Pinterestbot
+User-agent: TelegramBot
+
+# assist
+User-agent: Claude-SearchBot
+User-agent: Gemini-Deep-Research
+User-agent: OAI-SearchBot
+User-agent: DuckAssistBot
 User-agent: PerplexityBot
-Disallow: /
+User-agent: ChatGPT-User
+User-agent: Perplexity-User
+User-agent: xAI-Bot
+User-agent: Amzn-SearchBot
+User-agent: Kimi-SearchBot
 
-# ========================================================
-# SECTION 2: GLOBAL RULES (ALL OTHER BOTS)
-# ========================================================
-# Applies to Google, Bing, DuckDuckGo, etc.
+# archive
+User-agent: archive.org_bot
+User-agent: AhrefsBot
 
-User-agent: *
-
-# Block sensitive or low-value pages
+# other
+Allow: /
+Disallow: /data
+Disallow: /data/
+Disallow: /404
+Disallow: /404/
+Disallow: /privacy
+Disallow: /privacy/
+Disallow: /search
+Disallow: /search/
+Disallow: /social
+Disallow: /social/
+Disallow: /?s=
+Disallow: /reports
+Disallow: /reports/
+Disallow: /wp-admin
+Disallow: /wp-admin/
+Disallow: /checkout
+Disallow: /checkout/
+Disallow: /cart
+Disallow: /cart/
+Disallow: /account
+Disallow: /account/
+Disallow: /.env
+Disallow: /.env/
 Disallow: /404
 Disallow: /legal/terms-and-conditions
 Disallow: /legal/privacy-policy
 Disallow: /contact
-
-# Block content directories (if you want these hidden from search)
 Disallow: /mediaposts
 Disallow: /articles
 Disallow: /bookreviews
 Disallow: /blogposts
 Disallow: /assets/files/
 
-# ========================================================
-# SECTION 3: SITEMAP
-# ========================================================
+# explicit disallow
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Google-Extended
+User-agent: Bytespider
+User-agent: GPTBot
+User-agent: CCBot
+User-agent: GrokBot
+User-agent: omgili
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# everything else
+User-agent: *
+Disallow: /
 
 Sitemap: {{ "sitemap.xml" | absolute_url }}

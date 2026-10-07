@@ -11,6 +11,10 @@ layout: primary
 </div>
 
 <div class="blog-content">
+    <div class="title-image stop-click-event no-select">
+        <img src="/assets/img/primary/my-profile-pic-w.webp" draggable="false">
+    </div>
+
     {{ content }}
 
     <div class="row">
@@ -34,8 +38,3 @@ layout: primary
         <iframe class="frame" src="/assets/files/Jenn-Chastka-RESUME.pdf"></iframe>
     </div>
 </div>
-<script>
-    function goToPost(url) {
-        window.location.href = url;
-    }
-</script>

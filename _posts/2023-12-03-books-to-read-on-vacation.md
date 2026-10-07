@@ -6,7 +6,7 @@ edit_date: 2026-09-04 11:31:50 -0600
 categories: review
 permalink: books-to-read-during-the-holidays
 image: /assets/img/2023/dec-vacay-thumbnail.png
-description: You’ll never be bored again! These book recommendations will keep you entertained throughout the holidays, whether you’re looking for cozy reading or an exciting new story.
+description: You’ll never be bored again! These book recommendations will keep you entertained throughout the holidays.
 pinned: true
 keywords:
   - to read
@@ -18,8 +18,6 @@ keywords:
 The holidays are around the corner, and you may have planned everything out, from the cost of presents on Black Friday to the pit stops chosen on your trip to your in-laws. What you don’t have is anything to read during the holidays, and I have a list that can not only help you finish your Goodreads goal by the end of the year but also allow you to explore new genres. I promise you, this list is meant for people who have too much or too little time for themselves and want to enjoy the least hectic part of visiting or hosting family and friends.
 
 Isn’t that what the holidays are all about?
-
-  | *I'm not affiliated with any of these authors at the time of writing this post.*
 
 ## The 7 1/2 Deaths of Evelyn Hardcastle by Stuart Turton
 
