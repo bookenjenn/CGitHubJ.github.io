@@ -17,6 +17,10 @@
             draggable="false">BLOG</a>
         </li>
         <li class="nav-item">
+          <a {% if page.name=="portfolio.html" %}class='nav-link active' {% else %}class='nav-link' {% endif %}
+          href="/portfolio">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
           <a {% if page.name=="contact.md" %}class='nav-link active' {% else %}class='nav-link' {% endif %}
             href="/contact">ABOUT</a>
         </li>
